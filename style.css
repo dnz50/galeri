@@ -1,0 +1,34 @@
+.main{
+    display: flex;
+}
+
+.resim{
+    width: 200px;
+    height: 100vh;
+    border: 2px solid rgb(118, 203, 232);
+    border-radius: 30px;
+    margin: 10px;
+    background-size: cover;
+    flex: 0.5;
+    cursor: pointer;
+    transition:flex 0.5s;
+}
+.resim.active{
+    flex: 5;
+}
+
+#one{
+    background-image: url("pexels-asadphoto-1450360.jpg");
+}
+#two{
+    background-image: url("pexels-asadphoto-1591370.jpg");
+}
+#three{
+    background-image: url("pexels-pixabay-206359.jpg");
+}
+#four{
+    background-image: url("pexels-souvenirpixels-414612.jpg");
+}
+#five{
+    background-image: url("pexels-quang-nguyen-vinh-222549-2178175.jpg");
+}
